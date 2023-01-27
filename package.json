@@ -1,23 +1,24 @@
 {
-  "name": "tdd-jest-dsa",
-  "version": "1.0.0",
-  "description": "tdd-jest-dsa",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ILopatenko/tdd-jest-dsa.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ILopatenko/tdd-jest-dsa/issues"
-  },
-  "homepage": "https://github.com/ILopatenko/tdd-jest-dsa#readme",
-  "dependencies": {
-    "jest": "^29.4.1"
-  }
+   "name": "tdd-jest-dsa",
+   "version": "1.0.0",
+   "description": "tdd-jest-dsa",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "helper": "jest MainHelper/MainHelper.test.js --coverage"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ILopatenko/tdd-jest-dsa.git"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/ILopatenko/tdd-jest-dsa/issues"
+   },
+   "homepage": "https://github.com/ILopatenko/tdd-jest-dsa#readme",
+   "dependencies": {
+      "jest": "^29.4.1"
+   }
 }
