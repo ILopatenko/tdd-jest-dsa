@@ -67,4 +67,14 @@ describe('MainHelper test suite', () => {
          });
       });
    });
+   describe('2 getOne()', () => {
+      for (let i = 0; i < helper.testQuantity; i++) {
+         const one = helper.getOne(helper.sets.engAlphabet.upper);
+         describe(`This is a testCase # ${i + 1}. Returned value is ${one}`, () => {
+            test(`Expected value should be from given list`, () => {
+               expect(helper.sets.engAlphabet.upper.indexOf(one)).toBeGreaterThanOrEqual(0);
+            });
+         });
+      }
+   });
 });
