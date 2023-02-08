@@ -5,7 +5,8 @@
    "main": "index.js",
    "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
-      "helper": "jest MainHelper/MainHelper.test.js --coverage"
+      "helper": "jest MainHelper/MainHelper.test.js --coverage",
+      "linkedListHeadTail": "jest LinkedListHeadTail/LinkedListHeadTail.test.js --coverage"
    },
    "repository": {
       "type": "git",
